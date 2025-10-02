@@ -2,6 +2,15 @@
 name = "mdloc"
 version = "0.1.0"
 edition = "2021"
+authors = ["Elvis Ding <elvisding0307@gmail.com>"]
+description = "A Rust command-line tool for processing image links in Markdown files. Download remote images and convert them to Base64 embedded format or local file references."
+license = "GPL-3.0"
+readme = "README.md"
+repository = "https://github.com/elvisding0307/mdloc"
+keywords = ["markdown", "image", "localization"]
+categories = ["command-line-utilities", "text-processing"]
+rust-version = "1.86"
+
 
 [dependencies]
 clap = { version = "4.0", features = ["derive"] }
